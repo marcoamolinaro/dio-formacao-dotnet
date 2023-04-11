@@ -21,5 +21,13 @@ namespace webapi.Controllers
 
             return Ok(obj);
         }
+
+        [HttpGet("Apresentar/{nome}")]
+        public IActionResult Apresentar(string nome)
+        {
+            var mensagem = $"Olá {nome}, seja bem-vendo!";
+            return Ok(new {mensagem});
+        }
+
     }
 }
