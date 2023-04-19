@@ -1,3 +1,6 @@
+# Comando para executar
+dotnet watch run
+
 # Instalar via terminal
 
 # só precisa executar uma vez
