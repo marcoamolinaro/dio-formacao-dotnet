@@ -9,5 +9,5 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
 
 # Micrations
-dotnet-ef migrations add CriacaoTabelaContato
+dotnet-ef migrations add AdicionaTabelaContato
 dotnet-ef database update
